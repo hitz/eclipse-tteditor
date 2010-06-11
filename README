@@ -1,0 +1,24 @@
+git://github.com/hitz/eclipse-tteditor.git
+
+This is a full source code release, because at least that way you can change the colors (see the file ITTColorConstants.java).  You are on your own rebuilding the .jar however!
+
+use the command 
+prompt> git clone git://github.com/hitz/eclipse-tteditor.git
+
+cp tteditor_1.0.0.201006110828.jar /Your/Eclipse/InstallationDir/plugins
+
+It's set up to recognize files with extension .tt2 and .tmpl.  I am pretty sure there is some way to set this from Eclipse preferences.
+
+KNOWN BUGS:
+- HTML/XML comments marked with <!-- --> are suppose to be brick red. They are instead black.  This looks fine so I didn't fix it.  TT comments are brick red (correct).
+- quoted strings inside [% %] also appear as black text, but this also looks fine, so I didn't fix it.
+
+
+If you have trouble with git and just want the .jar, send an email and I will put it up somewhere else.
+
+Please send bug reports to: hitz@genome.stanford.edu.  Don't expect them to be fixed promptly!  
+
+Feel free to steal/abuse/modify/incorporate this "code" into your own work, private or commercial as you see fit.
+I or Stanford University is not responsible for any damages.
+
+Ben Hitz
