@@ -2,16 +2,16 @@
 <?eclipse version="3.4"?>
 <plugin>
 
-   <extension
-         point="org.eclipse.ui.editors">
-      <editor
-            name="%editor.name"
-            extensions="tt2, tmpl"
-            icon="icons/sample.gif"
-            contributorClass="org.eclipse.ui.texteditor.BasicTextEditorActionContributor"
-            class="tteditor.editors.TTEditor"
-            id="tteditor.editors.TTEditor">
-      </editor>
-   </extension>
+<extension
+		point="org.eclipse.ui.editors">
+	<editor
+			name="%editor.name"
+			extensions="t, tt2, tmpl, ttmpl"
+			icon="icons/sample.gif"
+			contributorClass="org.eclipse.ui.texteditor.BasicTextEditorActionContributor"
+			class="tteditor.editors.TTEditor"
+			id="tteditor.editors.TTEditor">
+	</editor>
+</extension>
 
 </plugin>
