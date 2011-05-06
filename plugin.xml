@@ -7,7 +7,7 @@
 	<editor
 			name="%editor.name"
 			extensions="t, tt2, tmpl, ttmpl"
-			icon="icons/sample.gif"
+			icon="icons/t.gif"
 			contributorClass="org.eclipse.ui.texteditor.BasicTextEditorActionContributor"
 			class="tteditor.editors.TTEditor"
 			id="tteditor.editors.TTEditor">
